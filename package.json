@@ -2,9 +2,9 @@
   "name": "hanadal-server2.0",
   "version": "1.0.0",
   "description": "hanadal server",
-  "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/"
+    "start": "tsc && node dist",
+    "test": "tsc && ./node_modules/mocha/bin/mocha dist/spec/**/*"
   },
   "repository": {
     "type": "git",
