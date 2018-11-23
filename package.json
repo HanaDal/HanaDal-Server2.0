@@ -4,7 +4,8 @@
   "description": "hanadal server",
   "scripts": {
     "start": "tsc && node dist",
-    "test": "tsc && ./node_modules/mocha/bin/mocha dist/spec/**/*"
+    "test": "tsc && ./node_modules/mocha/bin/mocha dist/spec/**/*",
+    "lint": "tslint -p ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@types/express": "^4.16.0",
     "@types/mocha": "^5.2.5",
     "@types/supertest": "^2.0.6",
+    "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "supertest": "^3.3.0"
   }
