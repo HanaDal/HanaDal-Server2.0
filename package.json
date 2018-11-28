@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "hanadal server",
   "scripts": {
-    "start": "tsc && node dist",
-    "test": "tsc && ./node_modules/mocha/bin/mocha dist/spec/**/*",
+    "start": "tsc && node dist/bin",
+    "test": "tsc && mocha dist/spec/**/*",
     "lint": "tslint -p ."
   },
   "repository": {
