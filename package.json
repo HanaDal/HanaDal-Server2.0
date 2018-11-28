@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/HanaDal/HanaDal-Server2.0#readme",
   "dependencies": {
+    "@types/chai": "^4.1.7",
     "express": "^4.16.4"
   },
   "devDependencies": {
